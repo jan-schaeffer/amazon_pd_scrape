@@ -1,4 +1,4 @@
-# Amazon PD Scrape
+# Amazon Parent Dashboard Scrape
 A Python script to scrape the Amazon Parent Dashboard. Uses Selenium to navigate pages. 
 
 ## Features
@@ -10,9 +10,10 @@ A Python script to scrape the Amazon Parent Dashboard. Uses Selenium to navigate
 - Deals with OTP authentification by logging into a mail-service, retrieving the OTP and entering it
 - Deals with having to verify login by clicking on a link in an Email
 - Upon succesfull login it scrapes the Parent Dashboard for the books read on a date and the reading minutes and writes this to .csv
-- Writes a log and backup file in case the script fails
+- Writes a log and backup file in case the script execution fails 
+- Plays a sound when execution fails
 
-##Requires
+## Requires
 - chromedriver for Selenium
 - /csv_in path with login data
 - Access to TwoCaptcha API

@@ -1,7 +1,8 @@
-#import scrapeorder
-#import login_reader
-#import password_gen
-#import amz_login
+# Import modules
+import scrapeorder
+import login_reader
+import password_gen
+import amz_login
 import foldersetup
 from datetime import date
 import csv
