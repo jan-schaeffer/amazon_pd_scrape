@@ -12,6 +12,11 @@ A Python script to scrape the Amazon Parent Dashboard. Uses Selenium to navigate
 - Upon succesfull login it scrapes the Parent Dashboard for the books read on a date and the reading minutes and writes this to .csv
 - Writes a log and backup file in case the script fails
 
+##Requires
+- chromedriver for Selenium
+- /csv_in path with login data
+- Access to TwoCaptcha API
+
 ## Amazon Parent Dashboard
 <img width="778" alt="Amazon Parent Dashboard" src="https://user-images.githubusercontent.com/78418209/182835807-438275e6-ff64-4d4d-a20c-89c63ec6ca31.png">
 
@@ -29,3 +34,6 @@ A Python script to scrape the Amazon Parent Dashboard. Uses Selenium to navigate
 
 ## Allow Access
 <img width="462" alt="Allow Access" src="https://user-images.githubusercontent.com/78418209/182837015-1be1fa94-2a8b-44da-affb-0717ee5c4b48.png">
+
+## Final Note
+This is my first larger web-scraping script. The Amazon Login procedure is quite complex and riddled with error messages, therefore the script may not work in all cases. 
